@@ -1,0 +1,1 @@
+{ "name": "he-thong-quan-ly-sieu-thi", "version": "2.0.0", "description": "BTL PTTK HTTT - Nhóm 09 - Hệ thống quản lý siêu thị (Node.js, không cần cài thư viện)", "main": "server.js", "scripts": { "start": "node server.js" }, "engines": { "node": ">=18" } }

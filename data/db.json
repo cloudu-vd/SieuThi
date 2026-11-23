@@ -1,0 +1,575 @@
+{
+  "counters": {
+    "NV": 4,
+    "TK": 5,
+    "DM": 4,
+    "KHO": 1,
+    "NCC": 2,
+    "KH": 2,
+    "THE": 1,
+    "TON": 8,
+    "PN": 0,
+    "CTPN": 0,
+    "HD": 7,
+    "CTHD": 9
+  },
+  "nhanvien": [
+    {
+      "maNV": "NV0001",
+      "hoTen": "Nguyễn Quản Trị",
+      "soDienThoai": "0900000001",
+      "chucVu": "Quản trị viên",
+      "trangThai": true
+    },
+    {
+      "maNV": "NV0002",
+      "hoTen": "Lê Quản Lý",
+      "soDienThoai": "0900000002",
+      "chucVu": "Quản lý",
+      "trangThai": true
+    },
+    {
+      "maNV": "NV0003",
+      "hoTen": "Phạm Bán Hàng",
+      "soDienThoai": "0900000003",
+      "chucVu": "Nhân viên bán hàng",
+      "trangThai": true
+    },
+    {
+      "maNV": "NV0004",
+      "hoTen": "Trần Thủ Kho",
+      "soDienThoai": "0900000004",
+      "chucVu": "Nhân viên kho",
+      "trangThai": true
+    }
+  ],
+  "taikhoan": [
+    {
+      "maTK": "TK0001",
+      "maNV": "NV0001",
+      "maKH": null,
+      "tenDangNhap": "admin",
+      "salt": "6cdec6dcd10435ea",
+      "matKhau": "78092c234e4b0053c9089ad1a29764e434930400db6444580eb10ec52e9da5ab",
+      "quyen": "QUAN_TRI"
+    },
+    {
+      "maTK": "TK0002",
+      "maNV": "NV0002",
+      "maKH": null,
+      "tenDangNhap": "quanly",
+      "salt": "6eaf28c61fe93c47",
+      "matKhau": "7c20042e5556305e2533b4e630b9d6437ab400be9bc4ccb691a644211eeab932",
+      "quyen": "QUAN_LY"
+    },
+    {
+      "maTK": "TK0003",
+      "maNV": "NV0003",
+      "maKH": null,
+      "tenDangNhap": "banhang",
+      "salt": "d80b1223a183056a",
+      "matKhau": "2e07b1fc7bfb8c4c2d44042cd1fdd4b8eca4a874d8ddf35de59d2541dae3a16b",
+      "quyen": "BAN_HANG"
+    },
+    {
+      "maTK": "TK0004",
+      "maNV": "NV0004",
+      "maKH": null,
+      "tenDangNhap": "kho",
+      "salt": "9c47af3f86a96ed5",
+      "matKhau": "5de0c34665b4724e309a3b3a75368b4fc0c62585e4b80f23f534e81696914778",
+      "quyen": "KHO"
+    },
+    {
+      "maTK": "TK0005",
+      "maNV": null,
+      "maKH": "KH0001",
+      "tenDangNhap": "khachhang",
+      "salt": "01345521d4c76279",
+      "matKhau": "ab2ade8561b3d12fefe51f9b14fb5f3051f311c17b6cd29fd9968bf659056826",
+      "quyen": "KHACH_HANG"
+    }
+  ],
+  "danhmuc": [
+    {
+      "maDM": "DM0001",
+      "tenDM": "Lương thực - Thực phẩm khô"
+    },
+    {
+      "maDM": "DM0002",
+      "tenDM": "Đồ uống"
+    },
+    {
+      "maDM": "DM0003",
+      "tenDM": "Hóa phẩm - Gia dụng"
+    },
+    {
+      "maDM": "DM0004",
+      "tenDM": "Thực phẩm tươi"
+    }
+  ],
+  "kho": [
+    {
+      "maKho": "KHO0001",
+      "tenKho": "Kho trung tâm",
+      "diaChi": "Số 1, Đường Siêu Thị, Hà Nội"
+    }
+  ],
+  "nhacungcap": [
+    {
+      "maNCC": "NCC0001",
+      "tenNCC": "Công ty Thực phẩm Việt",
+      "soDienThoai": "0241111111",
+      "diaChi": "Hà Nội",
+      "email": "lienhe@thucphamviet.vn"
+    },
+    {
+      "maNCC": "NCC0002",
+      "tenNCC": "Đại lý Nước giải khát Hà Nội",
+      "soDienThoai": "0242222222",
+      "diaChi": "Hà Nội",
+      "email": "daily@nuocgk.vn"
+    }
+  ],
+  "sanpham": [
+    {
+      "maSP": "SP0001",
+      "tenSP": "Gạo ST25 5kg",
+      "maDM": "DM0001",
+      "maKho": "KHO0001",
+      "donViTinh": "Bao",
+      "moTa": "",
+      "donGia": 145000,
+      "dangKinhDoanh": true,
+      "trangThaiKM": "Bình thường"
+    },
+    {
+      "maSP": "SP0002",
+      "tenSP": "Mì Hảo Hảo tôm chua cay",
+      "maDM": "DM0001",
+      "maKho": "KHO0001",
+      "donViTinh": "Gói",
+      "moTa": "",
+      "donGia": 4500,
+      "dangKinhDoanh": true,
+      "trangThaiKM": "Bình thường"
+    },
+    {
+      "maSP": "SP0003",
+      "tenSP": "Sữa tươi Vinamilk 1L",
+      "maDM": "DM0002",
+      "maKho": "KHO0001",
+      "donViTinh": "Hộp",
+      "moTa": "",
+      "donGia": 32000,
+      "dangKinhDoanh": true,
+      "trangThaiKM": "Đang áp dụng khuyến mãi"
+    },
+    {
+      "maSP": "SP0004",
+      "tenSP": "Nước suối Aquafina 500ml",
+      "maDM": "DM0002",
+      "maKho": "KHO0001",
+      "donViTinh": "Chai",
+      "moTa": "",
+      "donGia": 6000,
+      "dangKinhDoanh": true,
+      "trangThaiKM": "Đang áp dụng khuyến mãi"
+    },
+    {
+      "maSP": "SP0005",
+      "tenSP": "Dầu ăn Neptune 1L",
+      "maDM": "DM0001",
+      "maKho": "KHO0001",
+      "donViTinh": "Chai",
+      "moTa": "",
+      "donGia": 52000,
+      "dangKinhDoanh": true,
+      "trangThaiKM": "Bình thường"
+    },
+    {
+      "maSP": "SP0006",
+      "tenSP": "Trứng gà (vỉ 10 quả)",
+      "maDM": "DM0004",
+      "maKho": "KHO0001",
+      "donViTinh": "Vỉ",
+      "moTa": "",
+      "donGia": 38000,
+      "dangKinhDoanh": true,
+      "trangThaiKM": "Bình thường"
+    },
+    {
+      "maSP": "SP0007",
+      "tenSP": "Bánh Oreo",
+      "maDM": "DM0001",
+      "maKho": "KHO0001",
+      "donViTinh": "Gói",
+      "moTa": "",
+      "donGia": 18000,
+      "dangKinhDoanh": true,
+      "trangThaiKM": "Bình thường"
+    },
+    {
+      "maSP": "SP0008",
+      "tenSP": "Bột giặt OMO 3kg",
+      "maDM": "DM0003",
+      "maKho": "KHO0001",
+      "donViTinh": "Túi",
+      "moTa": "",
+      "donGia": 165000,
+      "dangKinhDoanh": true,
+      "trangThaiKM": "Bình thường"
+    }
+  ],
+  "tonkho": [
+    {
+      "maTonKho": "TON0001",
+      "maSP": "SP0001",
+      "soLuongTon": 49,
+      "capNhatLuc": "2026-11-23T18:01:06.849Z",
+      "trangThai": "Còn hàng"
+    },
+    {
+      "maTonKho": "TON0002",
+      "maSP": "SP0002",
+      "soLuongTon": 300,
+      "capNhatLuc": "2026-11-13T09:45:23.921Z",
+      "trangThai": "Còn hàng"
+    },
+    {
+      "maTonKho": "TON0003",
+      "maSP": "SP0003",
+      "soLuongTon": 119,
+      "capNhatLuc": "2026-11-23T18:01:06.849Z",
+      "trangThai": "Còn hàng"
+    },
+    {
+      "maTonKho": "TON0004",
+      "maSP": "SP0004",
+      "soLuongTon": 200,
+      "capNhatLuc": "2026-11-13T09:45:23.921Z",
+      "trangThai": "Còn hàng"
+    },
+    {
+      "maTonKho": "TON0005",
+      "maSP": "SP0005",
+      "soLuongTon": 60,
+      "capNhatLuc": "2026-11-13T09:45:23.921Z",
+      "trangThai": "Còn hàng"
+    },
+    {
+      "maTonKho": "TON0006",
+      "maSP": "SP0006",
+      "soLuongTon": 40,
+      "capNhatLuc": "2026-11-13T09:45:23.921Z",
+      "trangThai": "Còn hàng"
+    },
+    {
+      "maTonKho": "TON0007",
+      "maSP": "SP0007",
+      "soLuongTon": 80,
+      "capNhatLuc": "2026-11-13T09:45:23.921Z",
+      "trangThai": "Còn hàng"
+    },
+    {
+      "maTonKho": "TON0008",
+      "maSP": "SP0008",
+      "soLuongTon": 8,
+      "capNhatLuc": "2026-11-13T09:45:23.921Z",
+      "trangThai": "Còn hàng"
+    }
+  ],
+  "khachhang": [
+    {
+      "maKH": "KH0001",
+      "hoTen": "Nguyễn Văn An",
+      "gioiTinh": "Nam",
+      "ngaySinh": "1995-05-20",
+      "soDienThoai": "0901234567",
+      "email": "an@example.com",
+      "diaChi": "Hà Nội",
+      "ngayDangKy": "2026-11-13",
+      "diemTichLuy": 0,
+      "trangThai": "Hoạt động",
+      "maNV": "NV0003"
+    },
+    {
+      "maKH": "KH0002",
+      "hoTen": "Trần Thị Bình",
+      "gioiTinh": "Nữ",
+      "ngaySinh": "1998-11-02",
+      "soDienThoai": "0912345678",
+      "email": "",
+      "diaChi": "Hà Nội",
+      "ngayDangKy": "2026-11-13",
+      "diemTichLuy": 0,
+      "trangThai": "Hoạt động",
+      "maNV": "NV0003"
+    }
+  ],
+  "thethanhvien": [
+    {
+      "maThe": "THE00001",
+      "maKH": "KH0002",
+      "ngayCap": "2026-11-13",
+      "hangThe": "Thường",
+      "trangThai": "Hiệu lực"
+    }
+  ],
+  "phieunhap": [],
+  "chitietphieunhap": [],
+  "hoadon": [
+    {
+      "maHD": "HD000001",
+      "ngayLap": "2026-11-10T09:45:23.921Z",
+      "tongTien": 209000,
+      "tienGiam": 0,
+      "trangThai": "Đã thanh toán",
+      "ngayThanhToan": "2026-11-10T09:45:23.921Z",
+      "phuongThuc": "Tiền mặt",
+      "tienKhachDua": 209000,
+      "tienThua": 0,
+      "maNV": "NV0003",
+      "maKH": "KH0001",
+      "dsMaKM": [],
+      "kmBo": [],
+      "giamTheoKM": []
+    },
+    {
+      "maHD": "HD000002",
+      "ngayLap": "2026-11-11T09:45:23.921Z",
+      "tongTien": 99000,
+      "tienGiam": 0,
+      "trangThai": "Đã thanh toán",
+      "ngayThanhToan": "2026-11-11T09:45:23.921Z",
+      "phuongThuc": "Tiền mặt",
+      "tienKhachDua": 99000,
+      "tienThua": 0,
+      "maNV": "NV0003",
+      "maKH": null,
+      "dsMaKM": [],
+      "kmBo": [],
+      "giamTheoKM": []
+    },
+    {
+      "maHD": "HD000003",
+      "ngayLap": "2026-11-12T09:45:23.921Z",
+      "tongTien": 88000,
+      "tienGiam": 0,
+      "trangThai": "Đã thanh toán",
+      "ngayThanhToan": "2026-11-12T09:45:23.921Z",
+      "phuongThuc": "Tiền mặt",
+      "tienKhachDua": 88000,
+      "tienThua": 0,
+      "maNV": "NV0003",
+      "maKH": "KH0002",
+      "dsMaKM": [],
+      "kmBo": [],
+      "giamTheoKM": []
+    },
+    {
+      "maHD": "HD000004",
+      "ngayLap": "2026-11-13T09:45:23.921Z",
+      "tongTien": 76000,
+      "tienGiam": 0,
+      "trangThai": "Đã thanh toán",
+      "ngayThanhToan": "2026-11-13T09:45:23.921Z",
+      "phuongThuc": "Tiền mặt",
+      "tienKhachDua": 76000,
+      "tienThua": 0,
+      "maNV": "NV0003",
+      "maKH": null,
+      "dsMaKM": [],
+      "kmBo": [],
+      "giamTheoKM": []
+    },
+    {
+      "maHD": "HD000005",
+      "ngayLap": "2026-11-13T09:45:26.278Z",
+      "tongTien": 0,
+      "tienGiam": 0,
+      "trangThai": "Mới tạo",
+      "maNV": "NV0003",
+      "maKH": null,
+      "dsMaKM": [],
+      "kmBo": [],
+      "giamTheoKM": []
+    },
+    {
+      "maHD": "HD000006",
+      "ngayLap": "2026-11-23T17:58:33.961Z",
+      "tongTien": 173800,
+      "tienGiam": 3200,
+      "trangThai": "Đã xuất",
+      "maNV": "NV0003",
+      "maKH": null,
+      "dsMaKM": [
+        "KM001"
+      ],
+      "kmBo": [],
+      "giamTheoKM": [
+        {
+          "maKM": "KM001",
+          "tenKM": "Giảm 10% đồ uống",
+          "soTien": 3200
+        }
+      ],
+      "ngayXacNhan": "2026-11-23T18:00:32.946Z",
+      "diemCong": 0,
+      "ngayThanhToan": "2026-11-23T18:01:06.849Z",
+      "phuongThuc": "Tiền mặt",
+      "tienKhachDua": 173800,
+      "tienThua": 0
+    },
+    {
+      "maHD": "HD000007",
+      "ngayLap": "2026-11-23T18:02:34.437Z",
+      "tongTien": 0,
+      "tienGiam": 0,
+      "trangThai": "Mới tạo",
+      "maNV": "NV0003",
+      "maKH": null,
+      "dsMaKM": [],
+      "kmBo": [],
+      "giamTheoKM": []
+    }
+  ],
+  "chitiethoadon": [
+    {
+      "maCTHD": "CTHD000001",
+      "maHD": "HD000001",
+      "maSP": "SP0001",
+      "soLuong": 1,
+      "donGia": 145000,
+      "thanhTien": 145000
+    },
+    {
+      "maCTHD": "CTHD000002",
+      "maHD": "HD000001",
+      "maSP": "SP0003",
+      "soLuong": 2,
+      "donGia": 32000,
+      "thanhTien": 64000
+    },
+    {
+      "maCTHD": "CTHD000003",
+      "maHD": "HD000002",
+      "maSP": "SP0002",
+      "soLuong": 10,
+      "donGia": 4500,
+      "thanhTien": 45000
+    },
+    {
+      "maCTHD": "CTHD000004",
+      "maHD": "HD000002",
+      "maSP": "SP0007",
+      "soLuong": 3,
+      "donGia": 18000,
+      "thanhTien": 54000
+    },
+    {
+      "maCTHD": "CTHD000005",
+      "maHD": "HD000003",
+      "maSP": "SP0005",
+      "soLuong": 1,
+      "donGia": 52000,
+      "thanhTien": 52000
+    },
+    {
+      "maCTHD": "CTHD000006",
+      "maHD": "HD000003",
+      "maSP": "SP0004",
+      "soLuong": 6,
+      "donGia": 6000,
+      "thanhTien": 36000
+    },
+    {
+      "maCTHD": "CTHD000007",
+      "maHD": "HD000004",
+      "maSP": "SP0006",
+      "soLuong": 2,
+      "donGia": 38000,
+      "thanhTien": 76000
+    },
+    {
+      "maCTHD": "CTHD000008",
+      "maHD": "HD000006",
+      "maSP": "SP0001",
+      "soLuong": 1,
+      "donGia": 145000,
+      "thanhTien": 145000
+    },
+    {
+      "maCTHD": "CTHD000009",
+      "maHD": "HD000006",
+      "maSP": "SP0003",
+      "soLuong": 1,
+      "donGia": 32000,
+      "thanhTien": 32000
+    }
+  ],
+  "loaigiamgia": [
+    {
+      "maLoai": "PT",
+      "tenLoai": "Phần trăm"
+    },
+    {
+      "maLoai": "ST",
+      "tenLoai": "Số tiền cố định"
+    }
+  ],
+  "trangthai": [
+    {
+      "maTrangThai": "TT1",
+      "tenTrangThai": "Đã lưu"
+    },
+    {
+      "maTrangThai": "TT2",
+      "tenTrangThai": "Chưa bắt đầu"
+    },
+    {
+      "maTrangThai": "TT3",
+      "tenTrangThai": "Đang diễn ra"
+    },
+    {
+      "maTrangThai": "TT4",
+      "tenTrangThai": "Đã kết thúc"
+    },
+    {
+      "maTrangThai": "TT5",
+      "tenTrangThai": "Ngừng áp dụng"
+    },
+    {
+      "maTrangThai": "TT6",
+      "tenTrangThai": "Đã hủy"
+    }
+  ],
+  "khuyenmai": [
+    {
+      "maKM": "KM001",
+      "tenChuongTrinh": "Giảm 10% đồ uống",
+      "moTa": "Áp dụng cho sữa và nước suối",
+      "maLoai": "PT",
+      "giaTriGiam": 10,
+      "ngayBatDau": "2026-11-08",
+      "ngayKetThuc": "2026-12-08",
+      "maTrangThai": "TT3",
+      "nguoiTao": "NV0002",
+      "ngayTao": "2026-11-13T09:45:23.921Z"
+    }
+  ],
+  "chitietkhuyenmai": [
+    {
+      "maKM": "KM001",
+      "maSP": "SP0003",
+      "ghiChu": "",
+      "trangThai": "Đang áp dụng"
+    },
+    {
+      "maKM": "KM001",
+      "maSP": "SP0004",
+      "ghiChu": "",
+      "trangThai": "Đang áp dụng"
+    }
+  ]
+}

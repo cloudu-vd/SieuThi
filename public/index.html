@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hệ thống quản lý siêu thị</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app"></div>        <!-- Màn hình đăng nhập hoặc khung ứng dụng -->
+  <div id="modal-root"></div> <!-- Các hộp thoại (form thêm/sửa, chi tiết) -->
+  <div id="toast"></div>      <!-- Thông báo nhanh -->
+  <!-- Mã nguồn chia theo chức năng: mỗi thành viên phụ trách 1 tệp -->
+  <script src="common.js"></script>      <!-- Tiện ích chung, đăng nhập, khung giao diện -->
+  <script src="p_chung.js"></script>     <!-- Danh mục, kho, nhà cung cấp, sản phẩm, nhân viên, thống kê -->
+  <script src="p_khachhang.js"></script> <!-- Chức năng 1: Thêm mới khách hàng (Nguyễn Quang Huy) -->
+  <script src="p_nhapkho.js"></script>   <!-- Chức năng 2: Thêm hàng vào kho (Thào A Bảy) -->
+  <script src="p_hoadon.js"></script>    <!-- Chức năng 3: Lập hóa đơn bán hàng (Nguyễn Văn Du) -->
+  <script src="p_khuyenmai.js"></script> <!-- Chức năng 4: Quản lý khuyến mãi (Nguyễn Hoàng Sơn) -->
+  <script src="main.js"></script>        <!-- Menu theo quyền + khởi động -->
+</body>
+</html>
